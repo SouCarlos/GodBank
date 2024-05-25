@@ -1,0 +1,43 @@
+.login{
+    display: inline-block;
+    padding: 2em 3em;
+    background-color: #1a9eeb;
+    border-radius: 1em;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.884);
+    
+}
+.login h1{
+    text-align: center;
+    padding-bottom: .5em;
+}
+form{
+    display: flex ;
+    flex-direction: column;
+    
+}
+#user{
+    margin: 0.5em 0 1em 0 ;
+}
+#count{
+    margin: 0.5em 0 1em 0 ;
+}
+button{
+    background: none;
+    border: none;
+    margin: 0 3em;
+    padding: .5em 0;
+}
+button:hover{
+    color: rgb(202, 238, 166);
+    background-color: rgb(53, 50, 50);
+    
+    font-weight: 700;
+    border-radius: 5px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
